@@ -3,7 +3,7 @@ version: '3'
 services:
 
   mysql-node1:
-    image: percona/percona-xtradb-cluster
+    image: percona/percona-xtradb-cluster:5.7.20
     hostname: mysql-node1
     privileged: true
     environment:
@@ -19,7 +19,7 @@ services:
       - pxc-net
 
   mysql-node2:
-    image: percona/percona-xtradb-cluster
+    image: percona/percona-xtradb-cluster:5.7.20
     hostname: mysql-node2
     privileged: true
     environment:
@@ -35,7 +35,7 @@ services:
       - pxc-net
 
   mysql-node3:
-    image: percona/percona-xtradb-cluster
+    image: percona/percona-xtradb-cluster:5.7.20
     hostname: mysql-node3
     privileged: true
     environment:

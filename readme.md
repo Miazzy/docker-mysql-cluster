@@ -93,3 +93,5 @@ keepalived -f /etc/keepalived/keepalived.conf
 ```
 
 ##### end 然后使用mysql客户端测试是否可以连接mysql集群 外网IP加默认端口3306
+
+
